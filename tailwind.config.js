@@ -11,7 +11,7 @@ module.exports = {
       mobile: "1px",
       tablet: "500px",
       tableM: "700px",
-      desktop: "1024px",
+      desktop: "10n24px",
       desktopM: "1250px",
     },
     fontSize : {
