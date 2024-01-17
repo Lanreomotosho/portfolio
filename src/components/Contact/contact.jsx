@@ -1,13 +1,9 @@
 import React, { useRef, useState } from 'react';
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
+import Check from '../../assets/check.png';
 import Adobe from '../../assets/adobe.png';
 import Microsoft from '../../assets/microsoft.png';
 import Facebook from '../../assets/facebook.png';
-import FacebookIcon from '../../assets/facebook-icon.png';
-import TwitterIcon from '../../assets/twitter.png';
-import InstagramIcon from '../../assets/instagram.png';
-import  YoutubeIcon from '../../assets/youtube.png';
 import emailjs from '@emailjs/browser';
 
 
@@ -56,7 +52,7 @@ if(!email.includes('@') || !email.includes('.com') || email.length <15 ){
     Some of the notable companies I have worked with includes
 </p>
 <div className="clientImgs">
-    <img src={Walmart} alt='Client' className='clientImg' />
+    <img src={Check} alt='Client' className='clientImg' />
     <img src={Adobe} alt='Client' className='clientImg' />
     <img src={Microsoft} alt='Client' className='clientImg' />
     <img src={Facebook} alt='Client' className='clientImg' />
@@ -71,14 +67,6 @@ if(!email.includes('@') || !email.includes('.com') || email.length <15 ){
   <textarea onChange={(e)=> setMessage(e.target.value)} className='msg' name="message"  rows="5" placeholder='Your message'></textarea>
   <p></p>
   <button type='submit' value='Send' className="submitBtn" onClick={(e) => sendEmail(e)}><b>Submit</b></button>
-
-
-  <div className='links'>
-    <img src={FacebookIcon} alt='Facebook' className='links' />
-    <img src={TwitterIcon} alt='Twitter' className='links' />
-    <img src={InstagramIcon} alt='Instagram' className='links' />
-    <img src={YoutubeIcon} alt='Youtube' className='links' />
-  </div>
 </form>
 </div>
 
@@ -86,4 +74,4 @@ if(!email.includes('@') || !email.includes('.com') || email.length <15 ){
   )
 }
 
-export default Contact
+export default Contact;
