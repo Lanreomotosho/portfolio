@@ -1,0 +1,42 @@
+#react-icons {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: inline-block;
+    vertical-align: middle;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0 1rem;
+}
+
+.FaLinkedin {
+    color:  #0077b5;
+}
+
+.FaGithub {
+   color:  #4078c0
+}
+
+.FaXTwitter {
+    color: #000000;
+}
+
+.FaInstagramSquare  {
+   color: #FD1D1D;
+}
+
+.MdOutlineEmail {
+    color: #f2a60c;
+}
+
+.FaWhatsapp {
+    color: #128C7E;
+}
+
+@media screen and (max-width:350px) {
+    .react-icons {
+        height: 48vw;
+    }
+}

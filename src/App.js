@@ -4,8 +4,8 @@ import Intro from "./components/Intro/intro";
 import Skills from "./components/Skills/skills";
 import Works from "./components/Works/works";
 import Contact from "./components/Contact/contact";
-import Footer from "./components/Footer/footer";
 import Social from "./components/Social/social";
+import Footer from "./components/Footer/footer";
 import './index.jsx';
 
 
@@ -19,8 +19,8 @@ function App() {
       <Skills />
       <Works />
       <Contact />
-      <Footer />
       <Social />
+      <Footer />
     </div>
   );
 }
